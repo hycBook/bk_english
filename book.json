@@ -1,0 +1,112 @@
+{
+    "title": "英语学习笔记",
+    "author": "narutohyc",
+    "description": "记录 英语 语法等知识的学习",
+    "language": "zh-hans",
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "书籍主页": "https://hycbook.github.io/bk_index/"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+        "github",
+        "github-buttons",
+        "donate",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "mathjax",
+        "mermaid-gb3",
+        "tbfed-pagefooter",
+        "code",
+        "search-plus", "-lunr", "-search",
+        "lightbox",
+        "theme-comscore",
+        "valine",
+        "pageview-count",
+        "favicon-absolute",
+        "copyright-v"
+    ],
+    "pluginsConfig": {
+		"theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/narutohyc"
+        },
+		"tbfed-pagefooter": {
+            "copyright": "Copyright © narutohyc.com 2022",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "narutohyc",
+                "repo": "bk_python",
+                "type": "star",
+                "size": "small",
+                "count": true
+                }
+            ]
+        },
+        "donate": {
+            "wechat": "https://s2.loli.net/2022/03/23/WDiTVSamQBJdEA4.png",
+            "alipay": "https://s2.loli.net/2022/03/23/dEYjkaSGXwe7rnu.png",
+            "title": "",
+            "button": "欢迎打赏",
+            "alipayText": "alipay打赏",
+            "wechatText": "wechat打赏"
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": true,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "google", "facebook", "weibo", "twitter",
+                "qq", "qzone", "linkedin", "pocket"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "valine": {
+            "appId": "evyLlP61gQN3G3OM2GQq1rzH-gzGzoHsz",
+            "appKey": "utUrzoiqNaDEGlgr09JL1pXB",
+            "avatar": "wavatar",
+            "placeholder": "欢迎留下评论交流~",
+            "pageSize": 15
+        },
+        "favicon-absolute": {
+            "favicon": "./chapters/res/other/favicon.ico",
+            "appleTouchIconPrecomposed152": "./chapters/res/other/favicon.ico"
+        },
+        "copyright-v": {
+            "site": "https://hycbook.github.io/bk_english/",
+            "author": "narutohyc",
+            "website": "英语元知识驿站",
+            "image": "https://s2.loli.net/2022/03/24/pbMd1BCgUNzi7mG.png",
+            "copyProtect": true,
+	    "enableFooter": false
+        }
+    }
+}
