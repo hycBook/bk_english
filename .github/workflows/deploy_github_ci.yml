@@ -38,17 +38,17 @@ jobs:
           gitbook install
           # npm install -g gitbook-summary
 
-      - name: export pdf ebook
-        run: |
-          # 安装calibre，生成电子书
-          echo 安装calibre...
-          npm install svgexport -g
-          sudo mkdir /usr/share/desktop-directories/
-          sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-          sudo ln -s /usr/bin/nodejs /usr/bin/node
-          echo 安装calibre完成
-          mkdir -p /usr/share/fonts/truetype
-          cp -r ./node_modules_mathjax/fonts/* /usr/share/fonts/truetype
+      # - name: export pdf ebook
+      #   run: |
+      #     # 安装calibre，生成电子书
+      #     echo 安装calibre...
+      #     npm install svgexport -g
+      #     sudo mkdir /usr/share/desktop-directories/
+      #     sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+      #     sudo ln -s /usr/bin/nodejs /usr/bin/node
+      #     echo 安装calibre完成
+      #     mkdir -p /usr/share/fonts/truetype
+      #     cp -r ./node_modules_mathjax/fonts/* /usr/share/fonts/truetype
 
       # generate _book folder
       - name: generate_book_folder
